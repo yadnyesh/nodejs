@@ -1,1 +1,5 @@
-console.log('Hello Yadnyesh');
+console.log('Starting App...');
+
+const fs = require('fs');
+
+fs.appendFile('greetings.txt', 'Hello Yadnyesh');
