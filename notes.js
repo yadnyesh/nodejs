@@ -1,2 +1,4 @@
 console.log('Starting notes.js');
-console.log(module);
+// console.log(module);
+
+module.exports.age = 25;
