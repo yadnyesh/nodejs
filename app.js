@@ -7,4 +7,7 @@ const notes = require('./notes.js');
 var user = os.userInfo();
 
 //console.log(user);
-fs.appendFile('greetings.txt', `Hello ${user.username} ! You are ${notes.age}. \n`);
+// fs.appendFile('greetings.txt', `Hello ${user.username} ! You are ${notes.age}. \n`);
+
+var res = notes.addNote();
+console.log(res);
