@@ -5,6 +5,9 @@ const os = require('os');
 const notes = require('./notes.js');
 const _ = require('loadash');
 
+console.log(_.isString(true));
+console.log(_.isString('Yadnyesh'));
+
 // var user = os.userInfo();
 //
 // //console.log(user);

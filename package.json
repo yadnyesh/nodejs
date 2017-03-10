@@ -17,6 +17,6 @@
   },
   "homepage": "https://github.com/yadnyesh/nodejs#readme",
   "dependencies": {
-    "loadash": "0.0.1"
+    "lodash": "^4.17.4"
   }
 }
