@@ -1,2 +1,2 @@
 console.log('Starting notes.js');
-console.console.log(module);
+console.log(module);
