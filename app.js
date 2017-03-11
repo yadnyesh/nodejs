@@ -5,4 +5,6 @@ const _ = require('lodash');
 
 const notes = require('./notes.js');
 
-console.log(process.argv);
+var command = process.argv;
+
+console.log('Command: ', command);
