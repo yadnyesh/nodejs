@@ -9,5 +9,6 @@ var getAll = () => {
 }
 
 module.exports = {
-  addNote
+  addNote,
+  getAll
 };
