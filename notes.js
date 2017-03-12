@@ -1,6 +1,6 @@
 console.log('Starting notes.js');
 
-var addNote = () => {
+var addNote = (title, body) => {
 
 };
 
