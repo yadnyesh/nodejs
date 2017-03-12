@@ -9,7 +9,6 @@ const notes = require('./notes.js');
 const argv = yargs.argv;
 var command = process.argv[2];
 console.log('Command: ', command);
-//console.log('Process', process.argv);
 console.log('Yargs', argv);
 
 
@@ -20,7 +19,7 @@ if (command === 'add') {
   //console.log('Listing all notes');
   notes.getAll();
 } else if (command === 'read'){
-  console.log('Fetching note');
+  //console.log('Fetching note');
 } else if (command === 'remove') {
   console.log('Removing note')
 } else {
