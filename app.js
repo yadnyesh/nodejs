@@ -1,4 +1,4 @@
-console.log('Starting App.js...');
+console.log('Starting App.js from the file...');
 
 const fs = require('fs');
 const _ = require('lodash');
@@ -21,5 +21,5 @@ if (command === 'add') {
 } else if (command === 'remove') {
   notes.removeNote(argv.title);
 } else {
-  console.log('Command not recognized');
+  console.log('Command not recognized please recheck your command');
 }
