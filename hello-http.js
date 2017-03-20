@@ -7,4 +7,4 @@ var server = http.createServer(function (request, response) {
 
 server.listen(8001);
 
-console.log("Server running at http://127.0.0.1:8001");
+console.log("Server now running at http://127.0.0.1:8001");
